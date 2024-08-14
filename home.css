@@ -434,19 +434,46 @@
 
 /* @media nanti di sini untuk services */
 
-.Gallery-chef {
+
+
+.testimonials {
     width: 100%;
     height: auto;
     padding: 50px 0;
     text-align: center;
-    background-color: #ffae6b13
+    background-color: #ffae6b13;
 }
 
-.Gallery-chef h1 {
+.testimonials h1 {
     font-size: 35px;
     padding-bottom: 20px;
     border-bottom: 2px solid #f7bb00;
     display: inline-block;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 4rem;;
+    justify-content: center;
+}
+
+.wrapper .testimonials-item {
+    width: 300px;
+}
+
+.wrapper .testimonials-item .testimoni {
+    font-size: 100px;
+    
+}
+
+.wrapper .testimonials-item h2 {
+    font-size: 20px;
+}
+
+.wrapper .testimonials-item p {
+    font-size: 15px;
+    color: gray;
 }
 
 .Gallery-chef .main-chef .chef {
